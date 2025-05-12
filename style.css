@@ -18,6 +18,13 @@ header{
 nav ul li{
     display: inline-block;
 }
+
+nav li:hover{
+    color: lawngreen;
+    /*border: 1px solid red;*/
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     justify-content: flex-start;
@@ -131,6 +138,7 @@ div{
     right: 4rem;
     top: -0.6rem;
     border: 0 solid #fd75c8;
+    /*border-radius: 50%;*/
 }
 main{
     width: 100%;
